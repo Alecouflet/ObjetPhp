@@ -5,7 +5,7 @@
 
     <head>
     </head>
-    <body>
+    <body>LANGLACE
     <?php
         
         $Utilisateur1 = new User();

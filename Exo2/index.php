@@ -2,10 +2,10 @@
 <?php require ("personnage.php"); ?>
 <link rel="stylesheet" href="user.css">
 <html>
-
+ 
     <head>
     </head>
-    <body>LANGLACE
+    <body>julien
     <?php
         
         $Utilisateur1 = new User();
