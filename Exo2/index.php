@@ -6,18 +6,14 @@
     <head>
     </head>
     <body>julien
-    <?php
-        
-        $Utilisateur1 = new User();
-        
-        // CODER ?>
-        <h3>Exercice 1<h3>
-    <?php $Utilisateur1->AfficherUser();
-                
-    ?>
+ 
 
         <h3>Exercice 2<h3>
 
     <?php $Perso1 = new Personnage();
     $Perso1->AfficherVie();
     ?>
+
+    <?php echo  highlight_file('./'.basename(__FILE__),true);?>
+    </body>
+</html>

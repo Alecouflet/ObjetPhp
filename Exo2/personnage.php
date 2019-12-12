@@ -7,7 +7,7 @@
 
         // méthode :
         public function __construct(){
-            $this->$_Vie = 100;
+            $this->_Vie = 100;
         }
         public function AfficherVie(){
             echo "La vie du perso est".$this->_Vie;

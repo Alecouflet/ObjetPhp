@@ -5,19 +5,37 @@
 
     <head>
     </head>
-    <body>LANGLACE
+    <body>coucou
+    
+    
+    
+    
     <?php
         
         $Utilisateur1 = new User();
         
         // CODER ?>
         <h3>Exercice 1<h3>
-    <?php $Utilisateur1->AfficherUser();
+    <?php
+     $Utilisateur1->AfficherUser();
                 
     ?>
 
-        <h3>Exercice 2<h3>
+       
+<table>
+                <tr>
+                    <th>User</th>
+                </tr>
+                <tr>
+                    <td><p style="white-space:normal;solid black;width:115px"> -Nom : string
+                        -Prenom : string</td>
+                </tr>
+                <tr>
+                    <td>+AfficherUser() : void</td>
+                </tr>
+            </table>
 
-    <?php $Perso1 = new Personnage();
-    $Perso1->AfficherVie();
-    ?>
+<?php echo  highlight_file('./'.basename(__FILE__),true);?>
+
+
+   
