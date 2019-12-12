@@ -5,8 +5,6 @@
 </head>
 
 <body>
-        
-
 <?php 
     class User 
     {
@@ -16,20 +14,23 @@
 
         // méthode :
         public function AfficherUser(){
-            ?>
-            <table>
-                <tr>
-                    <th>Je suis un User</th>
-                </tr>
-                <tr>
-                    <td><p style="white-space:normal;solid black;width:115px"> -Nom : Lecouflet
+?>
+    <table>
+        <tr>
+            <th>Je suis un User</th>
+        </tr>
+        <tr>
+            <td><p style="white-space:normal;solid black;width:115px"> -Nom : Lecouflet
                         -Prenom : Alexis</td>
-                </tr>
-                <tr>
-                    <td>+AfficherUser() : void</td>
-                </tr>
-            </table>
-            <?php }
-    } ?>
+        </tr>
+        <tr>
+            <td>+AfficherUser() : void</td>
+        </tr>
+</table>
+<?php }
+    }
+?>
+</body>
+</html>
 
     

@@ -12,4 +12,5 @@
         public function AfficherVie(){
             echo "La vie du perso est".$this->_Vie;
         }
-    } ?>
+    }
+?>

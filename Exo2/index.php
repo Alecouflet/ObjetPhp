@@ -2,18 +2,14 @@
 <?php require ("personnage.php"); ?>
 <link rel="stylesheet" href="user.css">
 <html>
- 
-    <head>
-    </head>
-    <body>julien
- 
+ <head>
+</head>
+<body>julien
+    <h3>Exercice 2<h3>
 
-        <h3>Exercice 2<h3>
-
-    <?php $Perso1 = new Personnage();
+<?php $Perso1 = new Personnage();
     $Perso1->AfficherVie();
-    ?>
-
-    <?php echo  highlight_file('./'.basename(__FILE__),true);?>
-    </body>
+?>
+<?php echo  highlight_file('./'.basename(__FILE__),true);?>
+</body>
 </html>
