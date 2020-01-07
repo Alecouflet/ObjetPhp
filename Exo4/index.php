@@ -13,5 +13,8 @@ $Perso1->Attaquer($Perso2);
 $Perso2->Attaquer($Perso1);
 ?>
 <?php echo  highlight_file('./'.basename(__FILE__),true);?>
+
+
+
 </body>
 </html>

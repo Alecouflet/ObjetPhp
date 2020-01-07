@@ -5,6 +5,7 @@
         private $_Pseudo;
         private $_Vie;
 
+        
         // méthode :
         public function __construct($SonPseudo,$SaVie){
             $this->_Vie = $SaVie;
